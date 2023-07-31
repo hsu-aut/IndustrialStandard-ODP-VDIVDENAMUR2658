@@ -1,0 +1,2211 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.hsu-ifa.de/ontologies/VDIVDENAMUR2658"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.hsu-ifa.de/ontologies/VDIVDENAMUR2658">
+    <Prefix name="" IRI="http://www.semanticweb.org/markaj/ontologies/2022/3/untitled-ontology-64"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aborted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aborting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlterantiveDataItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlterantiveProtocolServer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaDrv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaMan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaManInt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaMon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaProcessValueIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaServParam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaView"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnaVlv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Answer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinDrv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinMan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinManInt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinMon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinProcessValueIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinServParam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinView"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinVlv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommunicationSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Completed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Completing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConfigurationParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConnectorInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DIntMan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DIntManInt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DIntMon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DIntProcessValueIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DIntServParam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DIntView"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataAssembly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiagnosticElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnumDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnumItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Execute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FunctionLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FurtherAspectSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HMIDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HMISet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HealthStateView"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Held"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndicatorElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationFlowConnector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InputElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstanceList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Junction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinkedObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LockView16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LockView4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LockView8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogicalPort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPCommunicationICLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPCommunicationSUCLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPDataObjectSUCLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPFile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPFurtherAspectSUCLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPHMIICLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPHMISUCLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPSUCLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPServiceSUBLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTPTextSUCLib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manifest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MassFlowConnector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModuleTypePackage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonAnaDrv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonAnaVlv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonBinDrv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonBinVlv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultiFileMTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nozzle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPCUAItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OPCUAServer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PIDCtrl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParameterElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pausing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Picture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PortObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositionText"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcedureParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessValueSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReportValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequiredEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resetting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resuming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemanticGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServerAssembly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceControl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceOperationMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServicePosition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceSourceMode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SingleFileMTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SourceList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Starting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateMachine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stopped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StringProcessValueIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StringServParam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StringView"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synchronisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Termination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TextDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TextSet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopologyObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unholding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VisualObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsDataItem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsInstanceList"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsLinkedObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsMTPSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsModuleTypePackage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsServerAssembly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsSourceList"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnswer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConfigurationParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDataAssembly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDataItem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnumDefinition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnumItem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExternalInterface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFunctionLine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInstanceList"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLogicalPort"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLogicalPortEnd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLogicalPortStart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMTP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeasurementLine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeasurementPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeasurementPointEnd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMeasurementPointStart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNozzle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNozzle1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNozzle2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOperationMode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPicture"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPipe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPositionText"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcedure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcedureParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessValueIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcessValueOut"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuestion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferenceHMIDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferenceServiceDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferenceText"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReportValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRequiredEquipment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSemanticGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasService"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServiceControl"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServiceInteraction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServicePosition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasServiceRelation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSourceList"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStateMachine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTextDefinition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVisualObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOfSemanticGroup"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAccess"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAttributeDataType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAttributeDataTypeForDataItem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAttributeDataTypeForLinkedObject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDirection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEdgePath"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEndpoint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHIerarchyLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasInstanceVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMTPVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNamespace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOSLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOSLevelforOperationElement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOSLevelforServiceControl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasOperationModeValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProcedureID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRefID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRefURI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRotation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSourceModeValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSourceProcedureID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSourceServiceID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSourceValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTagDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTagName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTargetProcedureID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTargetServiceID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTargetValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasText"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasViewType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQCforActiveElement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQCforAnaServParam"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQCforBinServParam"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQCforDIntServParam"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQCforDiagnosticElement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQCforIndicatorElement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQCforServiceControl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWQCforStringServParam"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasXCoordinate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasYCoordinate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasZIndex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#haseClassClassificationClass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#haseClassIRDI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#haseClassVersion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isDefault"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isSelfCompleting"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="w3.org/2000/01/rdf-schema#comment"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="w3.org/2000/01/rdf-schema#Literal"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="w3.org/2001/XMLSchema#anyURI"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="w3.org/2001/XMLSchema#base64Binary"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="w3.org/2001/XMLSchema#boolean"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="w3.org/2001/XMLSchema#float"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aborted"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aborting"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActiveElement"/>
+        <Class IRI="#DataAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlterantiveDataItem"/>
+        <Class IRI="#DataItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlterantiveProtocolServer"/>
+        <Class IRI="#ServerAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaDrv"/>
+        <Class IRI="#ActiveElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaMan"/>
+        <Class IRI="#OperationElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaManInt"/>
+        <Class IRI="#AnaMan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaMon"/>
+        <Class IRI="#AnaView"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaProcessValueIn"/>
+        <Class IRI="#InputElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaServParam"/>
+        <Class IRI="#ParameterElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaView"/>
+        <Class IRI="#IndicatorElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnaVlv"/>
+        <Class IRI="#ActiveElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Answer"/>
+        <Class IRI="#Text"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinDrv"/>
+        <Class IRI="#ActiveElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinMan"/>
+        <Class IRI="#OperationElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinManInt"/>
+        <Class IRI="#BinMan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinMon"/>
+        <Class IRI="#BinView"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinProcessValueIn"/>
+        <Class IRI="#InputElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinServParam"/>
+        <Class IRI="#ParameterElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinView"/>
+        <Class IRI="#IndicatorElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinVlv"/>
+        <Class IRI="#ActiveElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommunicationSet"/>
+        <Class IRI="#MTPSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Completed"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Completing"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConfigurationParameter"/>
+        <Class IRI="#ServiceParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connection"/>
+        <Class IRI="#HMIDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConnectorInterface"/>
+        <Class IRI="#HMIDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DIntMan"/>
+        <Class IRI="#OperationElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DIntManInt"/>
+        <Class IRI="#DIntMan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DIntMon"/>
+        <Class IRI="#DIntView"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DIntProcessValueIn"/>
+        <Class IRI="#InputElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DIntServParam"/>
+        <Class IRI="#ParameterElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DIntView"/>
+        <Class IRI="#IndicatorElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataAssembly"/>
+        <Class IRI="#LinkedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagnosticElement"/>
+        <Class IRI="#DataAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disable"/>
+        <Class IRI="#ServiceRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enable"/>
+        <Class IRI="#ServiceRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnumDefinition"/>
+        <Class IRI="#TextDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnumItem"/>
+        <Class IRI="#Text"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Execute"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Force"/>
+        <Class IRI="#ServiceRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FunctionLine"/>
+        <Class IRI="#Connection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FurtherAspectSet"/>
+        <Class IRI="#MTPSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HMISet"/>
+        <Class IRI="#MTPSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HealthStateView"/>
+        <Class IRI="#DiagnosticElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Held"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Holding"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Idle"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndicatorElement"/>
+        <Class IRI="#DataAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationFlowConnector"/>
+        <Class IRI="#ConnectorInterface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InputElement"/>
+        <Class IRI="#DataAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Junction"/>
+        <Class IRI="#TopologyObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LockView16"/>
+        <Class IRI="#LockView8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LockView4"/>
+        <Class IRI="#DiagnosticElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LockView8"/>
+        <Class IRI="#LockView4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LogicalPort"/>
+        <Class IRI="#PortObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPCommunicationICLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPCommunicationSUCLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPDataObjectSUCLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPFurtherAspectSUCLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPHMIICLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPHMISUCLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPSUCLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPServiceSUBLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTPTextSUCLib"/>
+        <Class IRI="#Lib"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MassFlowConnector"/>
+        <Class IRI="#ConnectorInterface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementLine"/>
+        <Class IRI="#Connection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementPoint"/>
+        <Class IRI="#PortObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonAnaDrv"/>
+        <Class IRI="#AnaDrv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonAnaVlv"/>
+        <Class IRI="#AnaVlv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonBinDrv"/>
+        <Class IRI="#BinDrv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonBinVlv"/>
+        <Class IRI="#BinVlv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultiFileMTP"/>
+        <Class IRI="#MTPFile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nozzle"/>
+        <Class IRI="#PortObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPCUAItem"/>
+        <Class IRI="#DataItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OPCUAServer"/>
+        <Class IRI="#ServerAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationElement"/>
+        <Class IRI="#DataAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PIDCtrl"/>
+        <Class IRI="#ActiveElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParameterElement"/>
+        <Class IRI="#DataAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paused"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pausing"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Picture"/>
+        <Class IRI="#HMIDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pipe"/>
+        <Class IRI="#Connection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PortObject"/>
+        <Class IRI="#HMIDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositionText"/>
+        <Class IRI="#Text"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procedure"/>
+        <Class IRI="#LinkedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcedureParameter"/>
+        <Class IRI="#ServiceParameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessValue"/>
+        <Class IRI="#LinkedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessValueSet"/>
+        <Class IRI="#MTPSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question"/>
+        <Class IRI="#Text"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReportValue"/>
+        <Class IRI="#LinkedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequiredEquipment"/>
+        <Class IRI="#LinkedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resetting"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resuming"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemanticGroup"/>
+        <Class IRI="#HMIDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <Class IRI="#LinkedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceControl"/>
+        <Class IRI="#ServiceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceElement"/>
+        <Class IRI="#DataAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceInteraction"/>
+        <Class IRI="#TextDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceOperationMode"/>
+        <Class IRI="#OperationMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceParameter"/>
+        <Class IRI="#LinkedObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServicePosition"/>
+        <Class IRI="#TextDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceSet"/>
+        <Class IRI="#MTPSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceSourceMode"/>
+        <Class IRI="#OperationMode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SingleFileMTP"/>
+        <Class IRI="#MTPFile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sink"/>
+        <Class IRI="#Termination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Source"/>
+        <Class IRI="#Termination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starting"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stopped"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stopping"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StringProcessValueIn"/>
+        <Class IRI="#InputElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StringServParam"/>
+        <Class IRI="#ParameterElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StringView"/>
+        <Class IRI="#IndicatorElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synchronisation"/>
+        <Class IRI="#ServiceRelation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Termination"/>
+        <Class IRI="#TopologyObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TextSet"/>
+        <Class IRI="#MTPSet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopologyObject"/>
+        <Class IRI="#HMIDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unholding"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VisualObject"/>
+        <Class IRI="#LinkedObject"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsDataItem"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsInstanceList"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsLinkedObject"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsMTPSet"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsModuleTypePackage"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsServerAssembly"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsSourceList"/>
+        <ObjectProperty IRI="#contains"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasConfigurationParameter"/>
+        <ObjectProperty IRI="#hasParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLogicalPortEnd"/>
+        <ObjectProperty IRI="#hasLogicalPort"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLogicalPortStart"/>
+        <ObjectProperty IRI="#hasLogicalPort"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMeasurementPointEnd"/>
+        <ObjectProperty IRI="#hasMeasurementPoint"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMeasurementPointStart"/>
+        <ObjectProperty IRI="#hasMeasurementPoint"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNozzle1"/>
+        <ObjectProperty IRI="#hasNozzle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNozzle2"/>
+        <ObjectProperty IRI="#hasNozzle"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProcedureParameter"/>
+        <ObjectProperty IRI="#hasParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProcessValue"/>
+        <ObjectProperty IRI="#hasParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProcessValueIn"/>
+        <ObjectProperty IRI="#hasProcessValue"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProcessValueOut"/>
+        <ObjectProperty IRI="#hasProcessValue"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReferenceHMIDescription"/>
+        <ObjectProperty IRI="#hasReference"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReferenceServiceDescription"/>
+        <ObjectProperty IRI="#hasReference"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReferenceText"/>
+        <ObjectProperty IRI="#hasReference"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReportValue"/>
+        <ObjectProperty IRI="#hasParameter"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRequiredEquipment"/>
+        <ObjectProperty IRI="#hasParameter"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsDataItem"/>
+        <Class IRI="#Lib"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsInstanceList"/>
+        <Class IRI="#Lib"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsLinkedObject"/>
+        <Class IRI="#Lib"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsMTPSet"/>
+        <Class IRI="#Lib"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsModuleTypePackage"/>
+        <Class IRI="#Lib"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsServerAssembly"/>
+        <Class IRI="#Lib"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsSourceList"/>
+        <Class IRI="#Lib"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConfigurationParameter"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDataAssembly"/>
+        <Class IRI="#InstanceList"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDataItem"/>
+        <Class IRI="#ServerAssembly"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnumDefinition"/>
+        <Class IRI="#TextSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnumItem"/>
+        <Class IRI="#EnumDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExternalInterface"/>
+        <Class IRI="#MTPSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFunctionLine"/>
+        <Class IRI="#Picture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInstanceList"/>
+        <Class IRI="#CommunicationSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLogicalPort"/>
+        <Class IRI="#InformationFlowConnector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLogicalPortEnd"/>
+        <Class IRI="#FunctionLine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLogicalPortStart"/>
+        <Class IRI="#FunctionLine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMTP"/>
+        <Class IRI="#MTPFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeasurementLine"/>
+        <Class IRI="#Picture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeasurementPoint"/>
+        <Class IRI="#InformationFlowConnector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeasurementPointEnd"/>
+        <Class IRI="#MeasurementLine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMeasurementPointStart"/>
+        <Class IRI="#MeasurementLine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNozzle"/>
+        <Class IRI="#MassFlowConnector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNozzle1"/>
+        <Class IRI="#Pipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNozzle2"/>
+        <Class IRI="#Pipe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOperationMode"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#MTPFile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPicture"/>
+        <Class IRI="#HMISet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPipe"/>
+        <Class IRI="#Picture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPositionText"/>
+        <Class IRI="#ServicePosition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcedure"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcedureParameter"/>
+        <Class IRI="#Procedure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcessValue"/>
+        <Class IRI="#Procedure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <Class IRI="#ServiceInteraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReferenceHMIDescription"/>
+        <Class IRI="#Manifest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReferenceServiceDescription"/>
+        <Class IRI="#Manifest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReferenceText"/>
+        <Class IRI="#Manifest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReportValue"/>
+        <Class IRI="#Procedure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRequiredEquipment"/>
+        <Class IRI="#Procedure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSemanticGroup"/>
+        <Class IRI="#Picture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServer"/>
+        <Class IRI="#SourceList"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasService"/>
+        <Class IRI="#ServiceSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServiceControl"/>
+        <Class IRI="#InstanceList"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServiceInteraction"/>
+        <Class IRI="#TextSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServicePosition"/>
+        <Class IRI="#TextSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasServiceRelation"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSet"/>
+        <Class IRI="#ModuleTypePackage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSourceList"/>
+        <Class IRI="#CommunicationSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasState"/>
+        <Class IRI="#StateMachine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStateMachine"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTextDefinition"/>
+        <Class IRI="#TextSet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasVisualObject"/>
+        <Class IRI="#Picture"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfSemanticGroup"/>
+        <Class IRI="#TopologyObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfSemanticGroup"/>
+        <Class IRI="#VisualObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsDataItem"/>
+        <Class IRI="#DataItem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsInstanceList"/>
+        <Class IRI="#InstanceList"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsLinkedObject"/>
+        <Class IRI="#LinkedObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsMTPSet"/>
+        <Class IRI="#MTPSet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsModuleTypePackage"/>
+        <Class IRI="#ModuleTypePackage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsServerAssembly"/>
+        <Class IRI="#ServerAssembly"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsSourceList"/>
+        <Class IRI="#SourceList"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnswer"/>
+        <Class IRI="#Answer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConfigurationParameter"/>
+        <Class IRI="#ConfigurationParameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDataAssembly"/>
+        <Class IRI="#DataAssembly"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDataItem"/>
+        <Class IRI="#DataItem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEnumDefinition"/>
+        <Class IRI="#EnumDefinition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEnumItem"/>
+        <Class IRI="#EnumItem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFunctionLine"/>
+        <Class IRI="#FunctionLine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInstanceList"/>
+        <Class IRI="#InstanceList"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLogicalPort"/>
+        <Class IRI="#LogicalPort"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLogicalPortEnd"/>
+        <Class IRI="#LogicalPort"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLogicalPortStart"/>
+        <Class IRI="#LogicalPort"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMTP"/>
+        <Class IRI="#ModuleTypePackage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeasurementLine"/>
+        <Class IRI="#MeasurementLine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeasurementPoint"/>
+        <Class IRI="#MeasurementPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeasurementPointEnd"/>
+        <Class IRI="#MeasurementPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMeasurementPointStart"/>
+        <Class IRI="#MeasurementPoint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNozzle"/>
+        <Class IRI="#Nozzle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNozzle1"/>
+        <Class IRI="#Nozzle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNozzle2"/>
+        <Class IRI="#Nozzle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOperationMode"/>
+        <Class IRI="#OperationMode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPart"/>
+        <Class IRI="#Manifest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPicture"/>
+        <Class IRI="#Picture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPipe"/>
+        <Class IRI="#Pipe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPositionText"/>
+        <Class IRI="#PositionText"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcedure"/>
+        <Class IRI="#Procedure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcedureParameter"/>
+        <Class IRI="#ProcedureParameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcessValue"/>
+        <Class IRI="#ProcessValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuestion"/>
+        <Class IRI="#Question"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReference"/>
+        <Class IRI="#Text"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferenceHMIDescription"/>
+        <Class IRI="#HMIDescription"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferenceServiceDescription"/>
+        <Class IRI="#ServiceDescription"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferenceText"/>
+        <Class IRI="#Text"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReportValue"/>
+        <Class IRI="#ReportValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRequiredEquipment"/>
+        <Class IRI="#RequiredEquipment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSemanticGroup"/>
+        <Class IRI="#SemanticGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServer"/>
+        <Class IRI="#ServerAssembly"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasService"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServiceControl"/>
+        <Class IRI="#ServiceControl"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServiceInteraction"/>
+        <Class IRI="#ServiceInteraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServicePosition"/>
+        <Class IRI="#ServicePosition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasServiceRelation"/>
+        <Class IRI="#ServiceRelation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSet"/>
+        <Class IRI="#MTPSet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSourceList"/>
+        <Class IRI="#SourceList"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasState"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStateMachine"/>
+        <Class IRI="#StateMachine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTextDefinition"/>
+        <Class IRI="#TextDefinition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVisualObject"/>
+        <Class IRI="#VisualObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfSemanticGroup"/>
+        <Class IRI="#SemanticGroup"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAttributeDataTypeForDataItem"/>
+        <DataProperty IRI="#hasAttributeDataType"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasAttributeDataTypeForLinkedObject"/>
+        <DataProperty IRI="#hasAttributeDataType"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasOSLevelforOperationElement"/>
+        <DataProperty IRI="#hasOSLevel"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasOSLevelforServiceControl"/>
+        <DataProperty IRI="#hasOSLevel"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWQCforActiveElement"/>
+        <DataProperty IRI="#hasWQC"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWQCforAnaServParam"/>
+        <DataProperty IRI="#hasWQC"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWQCforBinServParam"/>
+        <DataProperty IRI="#hasWQC"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWQCforDIntServParam"/>
+        <DataProperty IRI="#hasWQC"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWQCforDiagnosticElement"/>
+        <DataProperty IRI="#hasWQC"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWQCforIndicatorElement"/>
+        <DataProperty IRI="#hasWQC"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWQCforServiceControl"/>
+        <DataProperty IRI="#hasWQC"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasWQCforStringServParam"/>
+        <DataProperty IRI="#hasWQC"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAccess"/>
+        <Class IRI="#DataItem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAttributeDataTypeForDataItem"/>
+        <Class IRI="#DataItem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAttributeDataTypeForLinkedObject"/>
+        <Class IRI="#LinkedObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDirection"/>
+        <Class IRI="#Pipe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEdgePath"/>
+        <Class IRI="#Connection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEndpoint"/>
+        <Class IRI="#OPCUAServer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHIerarchyLevel"/>
+        <Class IRI="#Picture"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHeight"/>
+        <Class IRI="#Picture"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHeight"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIdentifier"/>
+        <Class IRI="#OPCUAItem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasInstanceVersion"/>
+        <Class IRI="#Manifest"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasInstanceVersion"/>
+        <Class IRI="#ModuleTypePackage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMTPVersion"/>
+        <Class IRI="#ModuleTypePackage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNamespace"/>
+        <Class IRI="#OPCUAItem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOSLevelforOperationElement"/>
+        <Class IRI="#OperationElement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOSLevelforServiceControl"/>
+        <Class IRI="#ServiceControl"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasOperationModeValue"/>
+        <Class IRI="#ServiceOperationMode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasProcedureID"/>
+        <Class IRI="#Procedure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRefID"/>
+        <Class IRI="#LinkedObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasRotation"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSourceModeValue"/>
+        <Class IRI="#ServiceSourceMode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSourceProcedureID"/>
+        <Class IRI="#ServiceRelation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSourceServiceID"/>
+        <Class IRI="#ServiceRelation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSourceValue"/>
+        <Class IRI="#ServiceRelation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTagDescription"/>
+        <Class IRI="#DataAssembly"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTagName"/>
+        <Class IRI="#DataAssembly"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTargetProcedureID"/>
+        <Class IRI="#ServiceRelation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTargetServiceID"/>
+        <Class IRI="#ServiceRelation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTargetValue"/>
+        <Class IRI="#ServiceRelation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasText"/>
+        <Class IRI="#Text"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasViewType"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWQCforActiveElement"/>
+        <Class IRI="#ActiveElement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWQCforAnaServParam"/>
+        <Class IRI="#AnaServParam"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWQCforBinServParam"/>
+        <Class IRI="#BinServParam"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWQCforDIntServParam"/>
+        <Class IRI="#DIntServParam"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWQCforDiagnosticElement"/>
+        <Class IRI="#DiagnosticElement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWQCforIndicatorElement"/>
+        <Class IRI="#IndicatorElement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWQCforServiceControl"/>
+        <Class IRI="#ServiceControl"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWQCforStringServParam"/>
+        <Class IRI="#StringServParam"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWidth"/>
+        <Class IRI="#Picture"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWidth"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <Class IRI="#TopologyObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <Class IRI="#TopologyObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasZIndex"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#haseClassClassificationClass"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#haseClassIRDI"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#haseClassVersion"/>
+        <Class IRI="#VisualObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isDefault"/>
+        <Class IRI="#Procedure"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isSelfCompleting"/>
+        <Class IRI="#Procedure"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAccess"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAttributeDataType"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDirection"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEdgePath"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEndpoint"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHIerarchyLevel"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHeight"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIdentifier"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#base64Binary"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIdentifier"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIdentifier"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasInstanceVersion"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMTPVersion"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNamespace"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOSLevel"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasOperationModeValue"/>
+        <Datatype IRI="w3.org/2000/01/rdf-schema#Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasProcedureID"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRefID"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRefURI"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRotation"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSourceModeValue"/>
+        <Datatype IRI="w3.org/2000/01/rdf-schema#Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSourceProcedureID"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSourceServiceID"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTagDescription"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTagName"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTargetProcedureID"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTargetServiceID"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasText"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasViewType"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWQC"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWidth"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasXCoordinate"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasYCoordinate"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasZIndex"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#haseClassClassificationClass"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#haseClassIRDI"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#haseClassVersion"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isDefault"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isSelfCompleting"/>
+        <Datatype IRI="w3.org/2001/XMLSchema#boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
